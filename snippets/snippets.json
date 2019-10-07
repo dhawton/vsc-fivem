@@ -32285,6 +32285,12 @@
       "SetTeamPickupObject(${1:object}, ${2:p1}, ${3:p2})"
     ]
   },
+  "SetTextEntry": {
+    "prefix": "SetTextEntry",
+    "body": [
+      "SetTextEntry(${1:string})"
+    ]
+  },
   "SetTextCentre": {
     "prefix": "SetTextCentre",
     "body": [
@@ -32303,10 +32309,10 @@
       "SetTextChatUnk(${1:p0})"
     ]
   },
-  "SetTextColour": {
-    "prefix": "SetTextColour",
+  "SetTextColor": {
+    "prefix": "SetTextColor",
     "body": [
-      "SetTextColour(${1:red}, ${2:green}, ${3:blue}, ${4:alpha})"
+      "SetTextColor(${1:red}, ${2:green}, ${3:blue}, ${4:alpha})"
     ]
   },
   "SetTextDropShadow": {
